@@ -1,8 +1,12 @@
-public class App{
-	public static void main(String[] args) throws Exception{
-	
-	Pessoa pessoa = new Pessoa();
-	pessoa.nome = "Peracio";
-	System.out.println(pessoa.nome);
-	
+public class App {
+	public static void main(String[] args) {
+		// Criando uma instância de Pessoa
+		Pessoa pessoa = new Pessoa();
+
+		// Usando o setter para definir o nome
+		pessoa.setNome("Peracio");
+
+		// Usando o getter para acessar o nome e exibir
+		System.out.println(pessoa.pegarNome());
 	}
+}

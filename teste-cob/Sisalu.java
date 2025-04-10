@@ -1,8 +1,8 @@
-import java.io.*;
+
 import java.util.*;
 
-public class Sisalu{
-    
+public class Sisalu {
+
     // Definindo as classes principais
     static class Aluno {
         String codigo;
@@ -15,7 +15,8 @@ public class Sisalu{
         String bairro;
         String rua;
 
-        public Aluno(String codigo, String nome, String sobrenome, String fone, String cep, String cidade, String uf, String bairro, String rua) {
+        public Aluno(String codigo, String nome, String sobrenome, String fone, String cep, String cidade, String uf,
+                String bairro, String rua) {
             this.codigo = codigo;
             this.nome = nome;
             this.sobrenome = sobrenome;
@@ -51,7 +52,7 @@ public class Sisalu{
             this.terceiro = terceiro;
             this.quarto = quarto;
         }
-        
+
         public double calcularMedia() {
             return (primeiro + segundo + terceiro + quarto) / 4.0;
         }
